@@ -6,11 +6,9 @@ var todo = require("../models/todo.js");
 
 router.get("/", function(req, res) {
     todo.all(function(data) {
-        console.log("data: ", data);
         var hbsOject = {
             todos: data
         };
-        console.log("from todos_controllers.js 12", hbsOject);
         res.render("index", hbsOject);
     });
 });
@@ -29,7 +27,7 @@ router.post("/api/todos", function(req, res) {
 router.put("/api/todos/:id", function(req, res) {
     var condition = "id = " + req.params.id;
 
-    console.log("condition", condition);
+    console.log("condition controller.js 33", condition);
 
     todo.update({
         done: req.body.done
@@ -45,7 +43,7 @@ router.put("/api/todos/:id", function(req, res) {
 
 router.delete("/api/todos/:id", function(req, res) {
     var condition = "id = " + req.params.id;
-  
+
     todo.delete(condition, function(result) {
       if (result.affectedRows == 0) {
         // If no rows were changed, then the ID must not exist, so 404

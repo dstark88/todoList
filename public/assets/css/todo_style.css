@@ -29,4 +29,8 @@ li {
     margin-bottom: 5px;
   }
 
+  .delete-todo {
+    background-color: rgb(209,70,67);
+  }
+
 

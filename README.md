@@ -1,5 +1,10 @@
-# Shred-Da-Todo
-Assignment #14
+# Todo List
+Coding Assignment 
+
+#Heroku live deployment
+https://fierce-dawn-29443.herokuapp.com/
+
+
 
 ###Objective
 Create a todo logger with ORM, MySQL, Node, Express, and Handlebars to generate HTML
