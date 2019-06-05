@@ -1,0 +1,9 @@
+<li>
+	{{todo_name}}
+
+	<button class="change-doit btn btn-secondary btn-sm" data-id="{{id}}" data-newdoit="{{doit}}">
+		{{#if doit}}To Do{{else}}Done{{/if}}
+	</button>
+
+	<button class="delete-todo btn btn-secondary btn-sm" data-id="{{this.id}}">Remove</button>
+</li>

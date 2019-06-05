@@ -6,6 +6,7 @@ var todo = require("../models/todo.js");
 
 router.get("/", function(req, res) {
     todo.all(function(data) {
+        console.log("data: ", data);
         var hbsOject = {
             todos: data
         };

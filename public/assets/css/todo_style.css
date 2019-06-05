@@ -12,6 +12,8 @@ li {
     padding: 1px;
     margin: 1px;
     background: none;
+    display:block;
+    float: left;
   }
   
   .label {
