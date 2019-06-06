@@ -4,6 +4,14 @@ Coding Assignment
 #Heroku live deployment
 https://fierce-dawn-29443.herokuapp.com/
 
+#GitHub page
+https://github.com/dstark88/todoList
+
+##To run
+1. Install dependencies:
+$ npm install
+2. Run the server:
+$ npm start
 
 
 ###Objective
@@ -21,6 +29,6 @@ MySQL
 ORM
 
 ###App Functionality
-A functional app that lets a user input the name of a todo they would like to shred to their bucket list.
-Once submitted, the todo is displayed in text on the left side of the page until it has been shred.
-Each todo in the bucket list area also has a shred it and remove it button. Once clicked, the todo will move to the right side of the page or be deleted. Every todo entered is stored in the database.
+A functional app that lets a user input a to do list item to complete. The user is able to add the to do item to the to do list or the done list.
+Once submitted, the to do is displayed in text on the left side of the page until it has been completed.
+Each to do has a done and delete it button. Once clicked, the to do item will move to the right side of the page or be deleted. Every to do entered is stored in the database.
